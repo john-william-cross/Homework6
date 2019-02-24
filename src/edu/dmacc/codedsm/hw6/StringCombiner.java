@@ -7,7 +7,6 @@ import java.util.Date;
 public class StringCombiner {
 
     public static void main(String[] args) {
-
         String stringOne = "Today";
         String stringTwo = "is";
 
@@ -16,7 +15,6 @@ public class StringCombiner {
         String result = combinedMethods(twoStrings, outputDate());
 
         System.out.println(result);
-
     }
 
     public static String twoStrings(String stringOne, String stringTwo) {
